@@ -14,7 +14,7 @@ O sistema operacional **ELF** possui seis algoritmos de escalonamento de process
 - **Prioc** (Prioridade com preempção)  
 - **Priop** (Prioridade sem preempção)  
 
-O programa simula a execução de processos recebidos como entrada, contendo as seguintes informações:  
+O programa simula a execução de processos com base nas seguintes informações:  
 - **PID**: Identificador do processo  
 - **Tempo de ingresso** na fila de prontos  
 - **Duração** (tempo de execução necessário)  
@@ -24,20 +24,20 @@ O programa simula a execução de processos recebidos como entrada, contendo as 
   - `2` = I/O bound  
   - `3` = Ambos  
 
-### Saída esperada:
-- Ordem de execução dos processos (sequência de PIDs)  
+### Resultados da simulação
+- Ordem de execução dos processos  
 - Tempo médio de execução  
 - Tempo médio de espera  
 
 ---
 
 ## ⚙️ Funcionalidades
-- [x] Implementação de no mínimo **dois algoritmos de escalonamento**  
+- [x] Implementação de múltiplos algoritmos de escalonamento  
 - [x] Definição de **quantum** para Round Robin  
 - [x] Entrada de dados parametrizada para diferentes cenários  
-- [x] Cálculo automático de **tempos médios de execução e espera**  
-- [x] Relatório completo da simulação com destaque para cada algoritmo utilizado  
-- [x] Código totalmente **comentado** para fins acadêmicos e didáticos  
+- [x] Cálculo automático de tempos médios  
+- [x] Relatório consolidado por algoritmo escolhido  
+- [x] Código comentado para fins acadêmicos e didáticos  
 
 ---
 
@@ -60,9 +60,9 @@ O programa simula a execução de processos recebidos como entrada, contendo as 
 │   ├── Srtf.java          # Implementação do algoritmo SRTF
 │   ├── Prioc.java         # Implementação do algoritmo de prioridade com preempção
 │   ├── Priop.java         # Implementação do algoritmo de prioridade sem preempção
-│── input/                # Arquivos de entrada de processos
-│── output/               # Resultados da simulação
-│── README.md             # Documentação do projeto
+│── input/                 # Arquivos de entrada de processos
+│── output/                # Resultados da simulação
+│── README.md              # Documentação do projeto
 ```
 ---
 ## 🖥️ Como Executar
@@ -95,11 +95,10 @@ O programa solicitará os processos no seguinte formato:
 ```bash
 PID  TempoDeIngresso  Duracao  Prioridade  Tipo
 ```
-Exemplo:
-```bash
-1 0 6 0 1
-2 2 4 3 2
-3 4 5 2 1
-```
+
+## 👨‍💻 Autores:
+### Beatriz Christine
+Projeto desenvolvido como parte dos estudos da disciplina de Sistemas Operacionais (UFAM).
+
 
 
