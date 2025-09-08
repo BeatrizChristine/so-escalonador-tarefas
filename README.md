@@ -65,41 +65,41 @@ O programa simula a execução de processos recebidos como entrada, contendo as 
 │── README.md             # Documentação do projeto
 ```
 ---
+## 🖥️ Como Executar
 
-##🖥️ Como Executar
-# 🔹 Passo 1 — Clonar o repositório
+### Passo 1 — Clonar o repositório
+```bash
 git clone https://github.com/SEU-USUARIO/so-escalonador-tarefas.git
 cd so-escalonador-tarefas
-
-# 🔹 Passo 2 — Compilar e executar
-# Dependendo da linguagem escolhida:
-
-## Java
+```
+###Passo 2 — Compilar e executar
+Dependendo da linguagem escolhida:
+- Java:
+```bash
 javac src/*.java -d bin
 java -cp bin Main
-
-## C
+```
+- C:
+```bash
 gcc src/*.c -o escalonador
 ./escalonador
-
-## Python
+```
+- Python:
+```bash
 python3 src/main.py
+```
+### Passo 3 — Inserir os processos
 
-# 🔹 Passo 3 — Inserir os processos
-# O programa solicitará os processos no seguinte formato:
-# PID TempoDeIngresso Duracao Prioridade Tipo
-# Exemplo:
+O programa solicitará os processos no seguinte formato:
+
+```bash
+PID  TempoDeIngresso  Duracao  Prioridade  Tipo
+```
+Exemplo:
+```bash
 1 0 6 0 1
 2 2 4 3 2
 3 4 5 2 1
+```
 
----
 
-##📊 Exemplo de Saída
-Algoritmo escolhido: Round Robin (Quantum = 2)
-
-Ordem de execução dos processos: P1 → P2 → P1 → P3 → P2 → P3 → P1  
-Tempo médio de execução: 12.33  
-Tempo médio de espera: 5.67
-
-## Licença MIT © Beatriz Christine
