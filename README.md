@@ -63,7 +63,7 @@ O programa simula a execução de processos recebidos como entrada, contendo as 
 │── input/                # Arquivos de entrada de processos
 │── output/               # Resultados da simulação
 │── README.md             # Documentação do projeto
-
+```
 ---
 
 ##🖥️ Como Executar
