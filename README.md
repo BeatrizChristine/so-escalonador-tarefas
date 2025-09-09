@@ -3,8 +3,6 @@
 Projeto desenvolvido na disciplina de **Sistemas Operacionais (UFAM)**.  
 Implementação de múltiplos algoritmos de escalonamento de processos.
 
----
-
 ## Descrição
 O sistema operacional **ELF** possui seis algoritmos de escalonamento de processos já definidos em seu núcleo:  
 - **FCFS** (First Come, First Served)  
@@ -29,7 +27,6 @@ O programa simula a execução de processos com base nas seguintes informações
 - Tempo médio de execução  
 - Tempo médio de espera  
 
----
 
 ## Funcionalidades
 - [x] Implementação de múltiplos algoritmos de escalonamento  
@@ -39,14 +36,12 @@ O programa simula a execução de processos com base nas seguintes informações
 - [x] Relatório consolidado por algoritmo escolhido  
 - [x] Código comentado para fins acadêmicos e didáticos  
 
----
 
 ## Tecnologias Utilizadas
 - **Linguagens**: *C*, *Java* ou *Python*  
 - **Estruturas de dados**: filas, listas encadeadas e gerenciamento de prioridades  
 - **Paradigma**: programação concorrente / simulação de escalonamento  
 
----
 
 ## 📂 Estrutura do Projeto
 ```bash
@@ -64,7 +59,6 @@ O programa simula a execução de processos com base nas seguintes informações
 │── output/                # Resultados da simulação
 │── README.md              # Documentação do projeto
 ```
----
 ## Como Executar
 
 ### Passo 1 — Clonar o repositório
