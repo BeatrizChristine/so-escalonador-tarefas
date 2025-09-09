@@ -96,9 +96,9 @@ O programa solicitará os processos no seguinte formato:
 PID  TempoDeIngresso  Duracao  Prioridade  Tipo
 ```
 
-## 👨‍💻 Autores:
-### Beatriz Christine
-Projeto desenvolvido como parte dos estudos da disciplina de Sistemas Operacionais (UFAM).
+## 📄 Licença
+Este projeto foi desenvolvido por **Beatriz Christine Azevedo Batista**  
+e está licenciado sob a **Licença MIT** — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 
 
