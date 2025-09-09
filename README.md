@@ -5,7 +5,7 @@ Implementação de múltiplos algoritmos de escalonamento de processos.
 
 ---
 
-## 📌 Descrição
+## Descrição
 O sistema operacional **ELF** possui seis algoritmos de escalonamento de processos já definidos em seu núcleo:  
 - **FCFS** (First Come, First Served)  
 - **RR** (Round Robin)  
@@ -31,7 +31,7 @@ O programa simula a execução de processos com base nas seguintes informações
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 - [x] Implementação de múltiplos algoritmos de escalonamento  
 - [x] Definição de **quantum** para Round Robin  
 - [x] Entrada de dados parametrizada para diferentes cenários  
@@ -41,7 +41,7 @@ O programa simula a execução de processos com base nas seguintes informações
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Linguagens**: *C*, *Java* ou *Python*  
 - **Estruturas de dados**: filas, listas encadeadas e gerenciamento de prioridades  
 - **Paradigma**: programação concorrente / simulação de escalonamento  
@@ -65,7 +65,7 @@ O programa simula a execução de processos com base nas seguintes informações
 │── README.md              # Documentação do projeto
 ```
 ---
-## 🖥️ Como Executar
+## Como Executar
 
 ### Passo 1 — Clonar o repositório
 ```bash
