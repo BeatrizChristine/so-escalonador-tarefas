@@ -1,4 +1,4 @@
-# ⚙️ Escalonamento de Tarefas — Sistemas Operacionais
+# Escalonamento de Tarefas (2025)
 
 Projeto desenvolvido na disciplina de **Sistemas Operacionais (UFAM)**.  
 Implementação de múltiplos algoritmos de escalonamento de processos.
